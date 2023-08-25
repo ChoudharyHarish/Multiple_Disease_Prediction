@@ -4,14 +4,14 @@ import streamlit as st;
 from streamlit_option_menu import option_menu;
 
 
-heart_model = joblib.load('heart_model.joblib');
-diabetes_model = joblib.load('diabetes_model.joblib');
-parkinson_model = joblib.load('parkinson_model.joblib');
+heart_model = joblib.load('./heart_model.joblib');
+diabetes_model = joblib.load('./diabetes_model.joblib');
+parkinson_model = joblib.load('./parkinson_model.joblib');
 
 
-heart_scaler = joblib.load("heart_scaler.joblib");
-diabetes_scaler = joblib.load("diabetes_scaler.joblib");
-parkinson_scaler = joblib.load("parkinsonScaler.joblib");
+heart_scaler = joblib.load("./heart_scaler.joblib");
+diabetes_scaler = joblib.load("./diabetes_scaler.joblib");
+parkinson_scaler = joblib.load("./parkinsonScaler.joblib");
 
 
 
